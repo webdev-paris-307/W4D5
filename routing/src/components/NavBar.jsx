@@ -22,8 +22,13 @@ function NavBar() {
 
 			<NavLink to="/fehzbgbz">Error</NavLink>
 			<NavLink to="/students">Students</NavLink>
+			<Hey>Hellloooo</Hey>
 		</nav>
 	)
 }
 
 export default NavBar
+
+function Hey({ children }) {
+	return <p>{children}</p>
+}
